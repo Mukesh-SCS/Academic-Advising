@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advising Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #007bff, #00c4ff);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        .collapsible {
+            background: linear-gradient(90deg, #28a745, #34c759);
+            color: white;
+            padding: 12px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 6px;
+            margin: 10px 0;
+            transition: background 0.3s ease;
+        }
+        .collapsible:hover {
+            background: linear-gradient(90deg, #218838, #2cb44a);
+        }
+        .content {
+            padding: 15px;
+            display: none;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            background: white;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        .content.show {
+            display: block;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            background: #fff;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background: #007bff;
+            color: white;
+            font-weight: 600;
+        }
+        tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        tr:hover {
+            background: #e9ecef;
+        }
+        .not-satisfied {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .group-box {
+            margin: 15px 0;
+        }
+        .pagination {
+            margin: 15px 0;
+            font-size: 0.9em;
+        }
+        .pagination a {
+            margin: 0 8px;
+            text-decoration: none;
+            color: #007bff;
+            transition: color 0.3s ease;
+        }
+        .pagination a:hover {
+            color: #0056b3;
+            text-decoration: underline;
+        }
+        .pagination a.inactive {
+            color: #6c757d;
+            pointer-events: none;
+        }
+        footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .content.show {
+            animation: fadeIn 0.3s ease-in;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Computer Science MS Advising Report</h1>
+    </header>
+
+    <div class="collapsible">Courses in Progress & Incompletes</div>
+    <div class="content">
+        <p>This Advising Report assumes successful completion of all ungraded courses, including courses marked as Incomplete "I" and In-Progress "IP." These courses are displayed below. Please note that an "I" will convert to an F grade after 180 days.</p>
+        <p><strong>ALL PRIOR TERM INCOMPLETE, IN-PROGRESS, AND UNGRADED COURSES MUST BE GRADED BEFORE A DEGREE WILL BE POSTED.</strong></p>
+        <p>Due to systems constraints, some in-progress, repeated courses may not display below. Once the course is completed, the higher graded attempt will be displayed in the Academic Requirements and the lower graded attempt excluded from calculation.</p>
+        <div class="group-box">
+            <p><strong>The following courses were used to satisfy this requirement:</strong></p>
+            <div class="pagination">
+                <a href="#">Personalize</a> | <a href="#">View All</a> | <a href="#">Zoom</a> 
+                <a href="#" class="inactive">First</a> <a href="#" class="inactive">Show previous row</a> 1-3 of 3 <a href="#" class="inactive">Show next row</a> <a href="#" class="inactive">Last</a>
+            </div>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Units</th>
+                    <th>When</th>
+                    <th>Grade</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>COSC 600</td>
+                    <td>ADV DATA STRUCTURES & ALGORITHM</td>
+                    <td>3.00</td>
+                    <td>Fall 2025</td>
+                    <td></td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>COSC 612</td>
+                    <td>SOFTWARE ENGINEERING I</td>
+                    <td>3.00</td>
+                    <td>Fall 2025</td>
+                    <td></td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>COSC 650</td>
+                    <td>COMPUTER NETWORKS</td>
+                    <td>3.00</td>
+                    <td>Fall 2025</td>
+                    <td></td>
+                    <td>In Progress</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div class="collapsible">Computer Science (MS)</div>
+    <div class="content">
+        <p class="not-satisfied">Not Satisfied: Requirements for the MS in Computer Science</p>
+        <p>If there are any inaccuracies with this report, please contact your program director directly.</p>
+        
+        <h3>Computer Science (MS) - Cybersecurity</h3>
+        <p class="not-satisfied">Not Satisfied: 30 units of required coursework for the MS in Computer Science - Cybersecurity Track. **2025-26 catalog and forward</p>
+        <p><strong>Description</strong><br>Units: 30.00 required, 9.00 taken, 21.00 needed</p>
+
+        <div class="collapsible">Core Courses</div>
+        <div class="content">
+            <p class="not-satisfied">Not Satisfied: A grade of B or better is required for all Core Courses. Courses may be repeated once to satisfy this requirement.</p>
+            <p><strong>Description</strong><br>Courses: 5 required, 3 taken, 2 needed</p>
+            <p><strong>The following courses may be used to satisfy this requirement:</strong></p>
+            <div class="group-box">
+                <div class="pagination">
+                    <a href="#">Personalize</a> | <a href="#">View All</a> | <a href="#">Zoom</a> 
+                    <a href="#" class="inactive">First</a> <a href="#" class="inactive">Show previous row</a> 1-5 of 5 <a href="#" class="inactive">Show next row</a> <a href="#" class="inactive">Last</a>
+                </div>
+                <table>
+                    <tr>
+                        <th>Course</th>
+                        <th>Description</th>
+                        <th>Units</th>
+                        <th>When</th>
+                        <th>Grade</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>COSC 519</td>
+                        <td>OPERATING SYSTEMS PRINCIPLES</td>
+                        <td>3.00</td>
+                        <td>Fall & Spring</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>COSC 578</td>
+                        <td>DATABASE MANAGEMENT SYSTEMS I</td>
+                        <td>3.00</td>
+                        <td>Fall & Spring</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>COSC 600</td>
+                        <td>ADV DATA STRUCTURES & ALGORITHM</td>
+                        <td>3.00</td>
+                        <td>Fall 2025</td>
+                        <td></td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>COSC 612</td>
+                        <td>SOFTWARE ENGINEERING I</td>
+                        <td>3.00</td>
+                        <td>Fall 2025</td>
+                        <td></td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>COSC 650</td>
+                        <td>COMPUTER NETWORKS</td>
+                        <td>3.00</td>
+                        <td>Fall 2025</td>
+                        <td></td>
+                        <td>In Progress</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="collapsible">Required Track Courses</div>
+        <div class="content">
+            <p class="not-satisfied">Not Satisfied: Select at least three courses from the list</p>
+            <p><strong>Description</strong><br>Courses: 3 required, 0 taken, 3 needed</p>
+            <p><strong>The following courses may be used to satisfy this requirement:</strong></p>
+            <div class="group-box">
+                <div class="pagination">
+                    <a href="#">Personalize</a> | <a href="#">View All</a> | <a href="#">Zoom</a> 
+                    <a href="#" class="inactive">First</a> <a href="#" class="inactive">Show previous row</a> 1-4 of 4 <a href="#" class="inactive">Show next row</a> <a href="#" class="inactive">Last</a>
+                </div>
+                <table>
+                    <tr>
+                        <th>Course</th>
+                        <th>Description</th>
+                        <th>Units</th>
+                        <th>When</th>
+                        <th>Grade</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>COSC 647</td>
+                        <td>APPLICATION SOFTWARE SECURITY</td>
+                        <td>3.00</td>
+                        <td>Fall</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>COSC 685</td>
+                        <td>INFO SECURITY & RISK MANAGEMENT</td>
+                        <td>3.00</td>
+                        <td>Spring</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>COSC 734</td>
+                        <td>NETWORK SECURITY</td>
+                        <td>3.00</td>
+                        <td>Spring</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>COSC 745</td>
+                        <td>ADV TOPICS/COMPUTER SECURITY</td>
+                        <td>3.00</td>
+                        <td>Spring</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="collapsible">Graduate Project/Thesis & Electives</div>
+        <div class="content">
+            <p class="not-satisfied">Not Satisfied: Students completing the thesis option will complete 6 units of thesis coursework and 0 units of elective courses.</p>
+            <p>Students completing the non-thesis option will complete 3 units of project coursework and 3 units of elective courses.</p>
+            <p>500/600/700 COSC courses (excluding COSC 501/502) that are not taken as a core or track course will be counted as electives.</p>
+            <p>Students wishing to take courses outside of COSC must receive the program director's approval prior to enrolling. <strong>Note that students may not count more than 9 units of 500-level courses toward their graduation requirements.</strong></p>
+            <p><strong>Description</strong><br>Units: 6.00 required, 0.00 taken, 6.00 needed</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Generated on July 16, 2025 | Contact your program director for support</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.collapsible').forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                content.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
